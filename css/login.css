@@ -1,0 +1,62 @@
+.login-menu {
+	position: relative;
+    display: none;  /* Hidden by default */
+	background-color: #fefefe;
+	margin: 10% auto 15% auto; /* 10% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 10px;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+/* Center the image */
+.login-img-container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login-img {
+  width: 40%;
+  border-radius: 2%;
+}
+
+.login-inputfields-container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#login-span {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.highlightYellow {
+    animation: animate_message 1.5s;
+}
+
+@keyframes animate_message {
+    0% {
+        color: yellow;
+        background-color: yellow;
+    }
+    100% {
+        color: red;
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,604 @@
+.floor-container {
+    position: relative;
+    margin: auto;
+    width: min(100vw,700px);
+}
+
+.floor-img {
+    width: 100%;
+}
+
+.button-view-container {
+    position: fixed;
+    background: linear-gradient( -45deg, green, green 49%, white 49%, white 51%, red 51% );
+    background-size: contain;
+    opacity: 0.5;
+    top: min(calc(3% + 10vw), calc(3% + 85px));
+    margin-left: 3%;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 15px;
+    z-index: 1;
+}
+
+.booker-view-container {
+    position: fixed;
+    background-image: url("/images/booker_view_button.png");
+    background-size: contain;
+    opacity: 0.5;
+    top: min(calc(3% + 10vw), calc(3% + 85px));
+    margin-left: 3%;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    width: 8vw;
+    height: 8vw;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 15px;
+    z-index: 1;
+}
+
+.floor-booker-img {
+    position: absolute;
+    background-color: green;
+    width: min(11vw,77px);
+    height: min(11vw,77px);
+    padding:0;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: min(7vw,50px);
+    cursor: pointer;
+    color: black;
+    z-index: 0;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+.floor-booker-img:hover {
+  opacity: 0.6;
+}
+
+.button-desk {
+    position: absolute;
+    background-color: green;
+    width: min(11vw,77px);
+    height: min(11vw,77px);
+    padding:0;
+    border-radius: 50%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: min(7vw,50px);
+    cursor: pointer;
+    color: black;
+    z-index: 0;
+    animation-duration: 1.2s;
+    /*-webkit-animation-duration: 1.2s;*/
+    animation-fill-mode: forwards;
+    /*-webkit-animation-fill-mode: forwards;*/
+}
+
+.button-desk1 {
+    animation-name: position1;
+}
+@keyframes position1 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:89.00%; left:84.00%;}
+}
+
+.button-desk2 {
+    animation-name: position2;
+}
+@keyframes position2 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:82.50%; left:84.00%;}
+}
+
+.button-desk3 {
+    animation-name: position3;
+}
+@keyframes position3 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:72.00%; left:5.00%;}
+}
+
+.button-desk4 {
+    animation-name: position4;
+}
+@keyframes position4 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:72.00%; left:18.50%;}
+}
+
+.button-desk5 {
+    animation-name: position5;
+}
+@keyframes position5 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:72.00%; left:31.75%;}
+}
+
+.button-desk6 {
+    animation-name: position6;
+}
+@keyframes position6 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:72.00%; left:71.00%;}
+}
+
+.button-desk7 {
+    animation-name: position7;
+}
+@keyframes position7 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:72.00%; left:84.00%;}
+}
+
+.button-desk8 {
+    animation-name: position8;
+}
+@keyframes position8 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:65.50%; left:5.00%;}
+}
+
+.button-desk9 {
+    animation-name: position9;
+}
+@keyframes position9 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top: 65.50%; left: 18.50%;}
+}
+
+.button-desk10 {
+    animation-name: position10;
+}
+@keyframes position10 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:65.50%; left:31.75%;}
+}
+
+.button-desk11 {
+    animation-name: position11;
+}
+@keyframes position11 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:65.50%; left:71.00%;}
+}
+
+.button-desk12 {
+    animation-name: position12;
+}
+@keyframes position12 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:65.50%; left:84.00%;}
+}
+
+.button-desk13 {
+    animation-name: position13;
+}
+@keyframes position13 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:59.00%; left:5.00%;}
+}
+
+.button-desk14 {
+    animation-name: position14;
+}
+@keyframes position14 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:59.00%; left:18.50%;}
+}
+
+.button-desk15 {
+    animation-name: position15;
+}
+@keyframes position15 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:59.00%; left:31.75%;}
+}
+
+.button-desk16 {
+    animation-name: position16;
+}
+@keyframes position16 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:59.00%; left:71.00%;}
+}
+
+.button-desk17 {
+    animation-name: position17;
+}
+@keyframes position17 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:59.00%; left:84.00%;}
+}
+
+.button-desk18 {
+    animation-name: position18;
+}
+@keyframes position18 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:52.50%; left:5.00%;}
+}
+
+.button-desk19 {
+    animation-name: position19;
+}
+@keyframes position19 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:52.50%; left:18.50%;}
+}
+
+.button-desk20 {
+    animation-name: position20;
+}
+@keyframes position20 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:52.50%; left:31.75%;}
+}
+
+.button-desk21 {
+    animation-name: position21;
+}
+@keyframes position21 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:52.50%; left:71.00%;}
+}
+
+.button-desk22 {
+    animation-name: position22;
+}
+@keyframes position22 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:52.50%; left:84.00%;}
+}
+
+.button-desk23 {
+    animation-name: position23;
+}
+@keyframes position23 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:46.00%; left:5.00%;}
+}
+
+.button-desk24 {
+    animation-name: position24;
+}
+@keyframes position24 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:46.00%; left:18.50%;}
+}
+
+.button-desk25 {
+    animation-name: position25;
+}
+@keyframes position25 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:46.00%; left:31.75%;}
+}
+
+.button-desk26 {
+    animation-name: position26;
+}
+@keyframes position26 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:46.00%; left:71.00%;}
+}
+
+.button-desk27 {
+    animation-name: position27;
+}
+@keyframes position27 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:46.00%; left:84.00%;}
+}
+
+.button-desk28 {
+    animation-name: position28;
+}
+@keyframes position28 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:39.5%; left:5.00%;}
+}
+
+.button-desk29 {
+    animation-name: position29;
+}
+@keyframes position29 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:39.50%; left:18.50%;}
+}
+
+.button-desk30 {
+    animation-name: position30;
+}
+@keyframes position30 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:39.50%; left:31.75%;}
+}
+
+.button-desk31 {
+    animation-name: position31;
+}
+@keyframes position31 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:39.50%; left:71.00%;}
+}
+
+.button-desk32 {
+    animation-name: position32;
+}
+@keyframes position32 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:39.50%; left:84.00%;}
+}
+
+.button-desk33 {
+    animation-name: position33;
+}
+@keyframes position33 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:33.00%; left:5.00%;}
+}
+
+.button-desk34 {
+    animation-name: position34;
+}
+@keyframes position34 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:33.00%; left:18.50%;}
+}
+
+.button-desk35 {
+    animation-name: position35;
+}
+@keyframes position35 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:33.00%; left:31.75%;}
+}
+
+.button-desk36 {
+    animation-name: position36;
+}
+@keyframes position36 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:33.00%; left:71.00%;}
+}
+
+.button-desk37 {
+    animation-name: position37;
+}
+@keyframes position37 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:33.00%; left:84.00%;}
+}
+
+.button-desk38 {
+    animation-name: position38;
+}
+@keyframes position38 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:26.50%; left:5.00%;}
+}
+
+.button-desk39 {
+    animation-name: position39;
+}
+@keyframes position39 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:26.50%; left:18.50%;}
+}
+
+.button-desk40 {
+    animation-name: position40;
+}
+@keyframes position40 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:26.50%; left:31.75%;}
+}
+
+.button-desk41 {
+    animation-name: position41;
+}
+@keyframes position41 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:26.50%; left:71.00%;}
+}
+
+.button-desk42 {
+    animation-name: position42;
+}
+@keyframes position42 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:26.50%; left:84.00%;}
+}
+
+.button-desk43 {
+    animation-name: position43;
+}
+@keyframes position43 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:20.00%; left:5.00%;}
+}
+
+.button-desk44 {
+    animation-name: position44;
+}
+@keyframes position44 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:20.00%; left:18.50%;}
+}
+
+.button-desk45 {
+    animation-name: position45;
+}
+@keyframes position45 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:20.00%; left:31.75%;}
+}
+
+.button-desk46 {
+    animation-name: position46;
+}
+@keyframes position46 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:20.00%; left:71.00%;}
+}
+
+.button-desk47 {
+    animation-name: position47;
+}
+@keyframes position47 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:20.00%; left:84.00%;}
+}
+
+.button-desk48 {
+    animation-name: position48;
+}
+@keyframes position48 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:13.50%; left:5.00%;}
+}
+
+.button-desk49 {
+    animation-name: position49;
+}
+@keyframes position49 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:13.50%; left:18.50%;}
+}
+
+.button-desk50 {
+    animation-name: position50;
+}
+@keyframes position50 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:13.50%; left:31.75%;}
+}
+
+.button-desk51 {
+    animation-name: position51;
+}
+@keyframes position51 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:13.50%; left:71.00%;}
+}
+
+.button-desk52 {
+    animation-name: position52;
+}
+@keyframes position52 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:13.50%; left:84.00%;}
+}
+
+.button-desk53 {
+    animation-name: position53;
+}
+@keyframes position53 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:7.00%; left:71.00%;}
+}
+
+.button-desk54 {
+    animation-name: position54;
+}
+@keyframes position54 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:7.00%; left:84.00%;}
+}
+
+.button-desk55 {
+    animation-name: position55;
+}
+
+@keyframes position55 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:0.50%; left:71.00%;}
+}
+
+.button-desk56 {
+    animation-name: position56;
+}
+@keyframes position56 {
+  0%   {top:42%; left:46%;}
+  50%   {top:42%; left:46%;}
+  100% {top:0.50%; left:84.00%;}
+}
+
+.datepicker {
+    z-index: 98;
+        position: fixed; /* centering horizontally requires the following 3 properties*/
+        left:0;
+        right:0;
+        margin: auto;
+        bottom: 3vh;
+    background-color:rgb(240,240,240,0.8);
+    width: 140px;
+    border: 1px solid rgb(255,64,129);
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    border-radius: 4px;
+}

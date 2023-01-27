@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+	font-family: Arial, Helvetic;
+	/*-webkit-text-size-adjust: none;  safari fix font size*/
+	margin: auto;
+}
+
+/* The Modal (background) */
+.modal {
+	position: fixed; /* Stay in place */
+    z-index: 997; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  	transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.buttons {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}

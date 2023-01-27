@@ -1,0 +1,52 @@
+.booking-menu {
+    display: none;
+    position: fixed;
+    bottom: 18%;
+    margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+    padding: 1px;
+    background-color: #04AA6D;
+    width: min(70%, 490px);
+    z-index: 998; /* Sit on top */
+    text-align:center;
+}
+
+.booking-circle {
+    width: min(65vw,40vh);
+    height: min(65vw,40vh);
+    margin: auto;
+    line-height: min(65vw,40vh);
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: min(20vw,10vh);
+    background: pink;
+}
+
+/* Center the image */
+.booking-img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+.booking-img {
+    height: min(65vw,40vh);
+    width: min(65vw,40vh);
+    border-radius: 50%;
+    display:none;
+}
+
+.button-booking-book {
+    width: 40%;
+    max-width: 300px;
+    border: 1px solid black;
+}
+
+.button-booking-close {
+    width: 40%;
+    max-width: 300px;
+    border: 1px solid black;
+}
