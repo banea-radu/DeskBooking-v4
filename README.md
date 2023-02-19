@@ -1,6 +1,15 @@
 ## Learn by doing Project - DeskBooking (version 4)
 
 ### Desk Booking Application for Office Buildings
+  ### Main functionalities:
+    - sql database
+      - login username
+        - autologin on next visit (until signed out manually)
+      - book free desks on specific date
+    - two overviews of desks status:
+      - green (free) or red (booked) colorings desks view
+      - booked by whom desks view (picture of the booker preview)
+    - side bar menu with user info and change/upload new user picture
 
 ### Technologies used:
 <div>
