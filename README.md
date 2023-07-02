@@ -20,8 +20,3 @@
 </div>
 
 https://user-images.githubusercontent.com/100232231/222981617-0e421a41-5cc9-4938-8bfd-2e5d8a5d4622.mp4
-
-### Live version deployed here: https://deskbooking.net/
-  #### Test user
-    - Username: test
-    - Password: test
